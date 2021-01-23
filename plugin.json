@@ -2,7 +2,7 @@
   "id": "nodebb-plugin-poll",
   "name": "Poll",
   "description": "NodeBB Poll Plugin",
-  "url": "https://github.com/Schamper/nodebb-plugin-poll",
+  "url": "https://github.com/ariastel/nodebb-plugin-poll",
   "library": "library.js",
   "hooks": [
     { "hook": "static:app.load", "method": "load" },
@@ -57,5 +57,6 @@
     "upgrades/give_categories_poll_create_privs_to_reg_users.js",
     "upgrades/convert_poll_id_voters_and_options_votes_to_sorted_sets.js",
     "upgrades/fix_incorrect_poll_privilege.js"
-  ]
+  ],
+	"settingsRoute": "/admin/plugins/nodebb-plugin-poll"
 }
